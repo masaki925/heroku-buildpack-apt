@@ -127,5 +127,5 @@ find $BUILD_DIR/.apt -type f -ipath '*/pkgconfig/*.pc' | xargs --no-run-if-empty
 echo $BUILD_DIR
 echo $HOME
 
-find /
+find / | grep mecab
 
